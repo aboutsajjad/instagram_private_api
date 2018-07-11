@@ -72,7 +72,7 @@ class MediaEndpointsMixin(object):
         """
         endpoint = 'media/{media_id!s}/comments/'.format(**{'media_id': media_id})
         query = {
-            'can_support_threading': 'true'
+        #'can_support_threading': 'true'
         }
         if kwargs:
             query.update(kwargs)
